@@ -19,7 +19,7 @@
 # We specify a minimum requirement of 3.10.2, but for now use 3.5.1 here
 # until our infrastructure catches up.
 cmake_minimum_required(VERSION 3.5.1)
-
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 include(CMakePackageConfigHelpers)
 
 # https://cmake.org/cmake/help/latest/policy/CMP0011.html
